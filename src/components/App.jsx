@@ -19,6 +19,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(loadContactsLocalStorage());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
